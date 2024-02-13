@@ -3,296 +3,543 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Food Order</title>
+    <link rel="stylesheet" href="style.css" class="css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
-    />
-    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    
-        <nav class="navbar navbar-expand navbar-expand-sm navbar-expand-md navbar-expand-lg ">
-          <div class="container-navbar">
-            <a class="navbar-brand" href="#"> <img src="images/logo.jpg" /></a>
-              <div class="navbar-nav">
-                <a class="nav-link" href="#">Home</a>
+    <div class="bg-img">
+      <div class="container-fluid header mt-3">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide carousel-dark carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/food1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/food2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/food3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="container-fluid mt-4 nav-bar bg-secondary text-white">
+        <nav class="navbar navbar-expand-sm">
+          <a class="navbar-brand" href="#">THE PLACE</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Services</a>
-                <a class="nav-link" href="#">Products</a>
-                <a class="nav-link" href="#">Contacts </a>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Book Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reward</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Whats New</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-      
-    <div class=" container-fluid container-carousel">
-      <div class="carousel slide"  data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active carousel-img">
-            <img src="images/img 1.jpeg"  alt="image">  
-          </div>
-          <div class="carousel-item carousel-img">
-            <img src="images/img 2.jpeg"  alt="image">
-          </div>
-        </div>
       </div>
-    </div>
-    <div class="coantiner-sm container-md container-lg mt-5 our-works">
-      <h1 class="text-center ">Our Works</h1>
-      <p class="text-center justify-content-center mt-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta
-        eveniet molestias voluptatum et. Voluptatem soluta inventore non hic
-        quos esse molestiae aliquid facere eaque dolor accusamus est,
-        accusantium minus?
-      </p>
-      <div class="coantiner-sm container-md container-lg mt-5">
-        <div class="row">
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="images/17tootired-grilled-cheese-articleLarge.webp" class="card-img-top" />
-              </div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-center">Catering</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat, perferendis at, fugiat accusantium excepturi tenetur animi libero temporibus dignissimos quia esse adipisci suscipit vitae illum odit labore voluptatum? Ipsam.</p>
-                </div>
-              </div>
-            </div>
+      <div class="container mt-5">
+        <div class="row intro-booking">
+          <div class="col-6 intro ms-5 p-5">
+            <h3>THE PLACE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              quia laboriosam voluptatem cumque beatae quo corporis enim eum
+              veritatis earum numquam suscipit sequi, blanditiis vero nisi,
+              consequuntur placeat officiis doloremque?Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Eum facere minus et ipsa fugiat
+              iusto voluptas repudiandae expedita tenetur saepe sunt ipsam
+              alias, quasi totam voluptatem deleniti aut velit cumque. Lorem
+              ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati
+              blanditiis explicabo corporis? Rem atque minus repudiandae nemo,
+              iusto quibusdam pariatur eum libero excepturi eius corporis unde
+              sapiente a enim?
+            </p>
           </div>
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="images/17tootired-grilled-cheese-articleLarge.webp"  class="card-img-top"  />
-              </div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-center">Catering</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat, perferendis at, fugiat accusantium excepturi tenetur animi libero temporibus dignissimos quia esse adipisci suscipit vitae illum odit labore voluptatum? Ipsam.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <div class="card-image">
-                <img src="images/17tootired-grilled-cheese-articleLarge.webp"  class="card-img-top" />
-              </div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-center">Catering</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat, perferendis at, fugiat accusantium excepturi tenetur animi libero temporibus dignissimos quia esse adipisci suscipit vitae illum odit labore voluptatum? Ipsam.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="coantiner-sm container-md container-lg container-contact mt-5">
-      <h1 class="text-center m-3">Contact Us</h1>
-      <p class="text-center m-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum
-        quibusdam maxime unde sequi velit sunt, recusandae mollitia tempora modi
-        officiis minus id corporis nobis at esse? Cumque, a ipsum.
-      </p>
-      <button class="btn btn-danger m-3">Call Now</button>
-    </div>
-    <div class="coantiner-sm container-md container-lg container-foodmenu">
-      <h1 class="text-center mt-3">Our Food Menu</h1>
-      <p class="text-center m-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores
-        molestias obcaecati ex voluptatum necessitatibus molestiae tempore
-        magnam doloribus eos asperiores facere sint id deleniti quasi
-        consectetur ullam, vero veniam!
-      </p>
-      <div class="row mt-3">
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-              <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-                <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-                <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-                <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-                <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 c0l-xl-6">
-          <div class="food-img">
-            <img src="images/17tootired-grilled-cheese-articleLarge.webp" />
-          </div>
-          <div class="food-img-text">
-            <div class="food-name-price">
-              <h1>Name</h1>
-              <span class="ms-5">
-                <h3 class="text-danger">rs 200</h3></span>
-            </div>
-            <div class="food-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, eveniet!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="coantiner-sm container-md container-lg container-reserve mt-5">
-      <h1>Make Reservation</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        quod est sed, eaque enim quam iure officiis illum tenetur vero
-        blanditiis reprehenderit architecto tempora, a voluptatem? Vitae
-        reprehenderit quas illum?
-      </p>
-      <form>
-        <div class="row">
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <input type="text" class="form-control" placeholder="Fisrt Name" />
-          </div>
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <input type="text" class="form-control" placeholder="Middle Name" />
-          </div>
-          <div class=" col-sm-12 col-md-4 col-lg-4">
-            <input type="text" class="form-control" placeholder="Last Name" />
-          </div>
-          <div class="col-12">
-            <textarea class="form-control" placeholder="Message"></textarea>
-          </div>
-        </div>
-        <button class="btn btn-danger">Book Now</button>
-      </form>
-    </div>
-   <div class="footer mt-5">
-    <div class="coantiner-sm container-md container-lg container-footer">
-      <div class="row">
-        <div class="col-sm-3 col-md-3 col-lg-3 ">
-          <h1 class="text-center">About Us</h1>
-          <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut maxime voluptatum magni eos fuga id nisi expedita dignissimos vitae tempora! Nobis provident, laudantium repellendus minima fugiat dicta sit dignissimos animi.</p>
-        </div>
-        <div class="col-sm-5 col-md-5 col-lg-5 ">
-          <h1 class="text-center">Menu</h1>
-          <ul>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-            <li><i class="bi bi-egg-fried"></i>Biryani</li>
-          </ul>
-        </div>
-        <div class=" col-sm-4 col-md-4 col-lg-4 ">
-          <h1>Contact Us</h1>
-          <h6><i class="bi bi-telephone"></i>000000000</h6>
-          <h6><i class="bi bi-envelope-at-fill"></i>mail@mail</h6>
-          
-          <h1>Opening Hours</h1>
-          <h6>Monady to Friday  </h6>
+          <div class="col-5 booking ms-5 p-5">
+            <h3>Working Hours</h3>
+            <ul>
+              <li>
+                Monday To Friday
+                <ul>
+                  <li>10:30 Am to 11 PM</li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Saturday and Sunday
+                <ul>
+                  <li>10:30 Am to 12 AM</li>
+                </ul>
+              </li>
+            </ul>
+            <button
+              onclick="bookSeat()"
+              class="btn btn-outline-success btn-book"
+            >
+              Book Seats
+            </button>
+            <dialog class="book-seat" id="book-seat">
+              <h3>Make a Booking</h3>
+              <form class="bookingform">
+                <div class="day-time">
+                  <label for="day">Select Day</label>
+                  <select id="day" name="day" required>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                  </select>
 
+                  <label class="time" for="time">Select Time</label>
+                  <input type="time" id="time" name="time" required />
+                </div>
+                <br />
+
+                <label for="people">Number of People</label>
+                <input
+                  type="number"
+                  id="people"
+                  name="people"
+                  min="1"
+                  max="10"
+                  required
+                /><br /><br />
+                <button class="btn btn-success">Book</button>
+                <button class="btn btn-secondary" onclick="closeBook()">
+                  Cancel
+                </button>
+              </form>
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid menu mt-5">
+        <div class="row">
+          <div class="col-6">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/food1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/food2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/food3.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="menu-heading">
+              <h3>Menus</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt
+              consectetur, est fuga voluptas alias optio, quae dolore culpa
+              dolorem quasi rerum natus nostrum debitis asperiores aliquam amet
+              sapiente velit.
+            </p>
+            <div class="row menu-row">
+              <div class="col-4">
+                <h3>Feb Special</h3>
+                <h5>Availabe all days</h5>
+                <div class="view-menu">
+                  <button onclick="openMenu()" class="btn btn-outline-success">
+                    View Menu
+                  </button>
+                  <dialog id="openmenu" class="openmenu">
+                    
+                    <div class="container container-foodmenu">
+                      
+                        <div class="food-container-head">
+                      <h3 class="foodmenu-head">Our Food Menu</h3>
+                      <button class="btn " onclick="closeMenu()">X</button></div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam maiores molestias obcaecati ex voluptatum
+                        necessitatibus molestiae tempore magnam doloribus eos
+                        asperiores facere sint id deleniti quasi consectetur
+                        ullam, vero veniam!
+                      </p>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 menu-item">
+                        <div class="card">
+                          <img
+                            src="images/food.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h3 class="card-title">Item</h3>
+                            <div class="card-text"><p>Lorem ipsum dolor sit amet.</p></Lorem></div>
+                            <a href="#" class="btn btn-outline-success"
+                              >Order</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </dialog>
+                </div>
+              </div>
+              <div class="col-4">
+                <h3>Drinks Menu</h3>
+                <h5>Availabe all days</h5>
+                <div class="view-menu">
+                  <button onclick="openMenu()" class="btn btn-outline-success">
+                    View Menu
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <h3>Desert Menu</h3>
+                <h5>Availabe all days</h5>
+                <div class="view-menu">
+                  <button onclick="openMenu()" class="btn btn-outline-success">
+                    View Menu
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="view-all-menu">
+              <button onclick="openMenu()" class="btn btn-outline-success">
+                View All Menu
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid pd mt-5">
+        <div class="row">
+          <div class="col-4 pd-intro">
+            <h3>Private Dining</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              labore necessitatibus voluptatibus vero voluptatum nihil quasi?
+              Aliquid rerum ipsa consequuntur.
+            </p>
+          </div>
+          <div class="col-4 pd-def">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              nemo porro fugit, ipsam nam neque iure ab omnis, accusamus
+              doloremque rem nisi laborum corporis blanditiis quis consequuntur
+              ullam eum dolor ipsum dolorum cum. Ducimus unde laboriosam aliquam
+              mollitia accusantium, eaque architecto esse. Praesentium corrupti
+              reprehenderit consectetur sequi tenetur assumenda doloribus
+              inventore saepe sint tempora excepturi delectus consequuntur
+              recusandae
+            </p>
+          </div>
+          <div class="col-4">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/pd1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/pd2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/pd3.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-   </div>
+    <div class="container-fluid footer bg-secondary text-white">
+      <div class="row">
+        <div class="col-6 aboutus">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nobis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ab.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nobis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ab.
+          </p>
+        </div>
+        <div class="col-6 contactus">
+          <h3>Contact Us</h3>
+          <div class="row row-contactus">
+            <div class="col-4">
+              <address>
+                John Doe<br />
+                123 Main Street<br />
+                City, State 12345<br />
+              </address>
+            </div>
+            <div class="col-4">
+              <a href="tel:+1234567890">123-456-7890</a><br />
+              <a href="mailto:john@example.com">john@example.com</a>
+            </div>
+            <div class="col-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5464675033168!2d-0.12209412292513416!3d51.50318971101042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2suk!4v1707713508254!5m2!1sen!2suk"
+                width="300"
+                height="250"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      const bookSeatDialog = document.getElementById("book-seat");
+      const openMenuDialog = document.getElementById("openmenu");
+      function bookSeat() {
+        bookSeatDialog.showModal();
+      }
+      function closeBook() {
+        bookSeatDialog.close();
+      }
+
+      function openMenu() {
+        openMenuDialog.showModal();
+      }
+      function closeMenu() {
+       openMenuDialog.close();
+      }
+
+    </script>
   </body>
 </html>
